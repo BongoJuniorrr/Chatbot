@@ -1,0 +1,136 @@
+{
+    "intents": [
+        {
+            "tags": "greetings",
+            "patterns": [
+                "hello",
+                "hi",
+                "hey"
+            ],
+            "responses": [
+                "hello!",
+                "hi!"
+            ]
+        },
+        {
+            "tags": "goodbye",
+            "patterns": [
+                "see you later",
+                "see you again",
+                "see you",
+                "goodbye",
+                "bye"
+            ],
+            "responses": [
+                "see you later!",
+                "see you again!",
+                "goodbye!",
+                "bye!",
+                "have a nice day!",
+                "have a good day!"
+            ]
+        },
+        {
+            "tags": "feelings",
+            "patterns": [
+                "how do you feel",
+                "what are you feeling",
+                "how are you"
+            ],
+            "responses": [
+                "good!",
+                "great!",
+                "not bad!",
+                "bad!",
+                "not good!"
+            ]
+        },
+        {
+            "tags": "searching",
+            "patterns": [
+                "search information",
+                "search",
+                "surf the internet"
+            ],
+            "responses": [
+                "i am searching!",
+                "i know that!",
+                "wait for me to find the information!"
+            ]
+        },
+        {
+            "tags": "objects1",
+            "patterns": [
+                "list object",
+                "list objects",
+                "tell me what is it"
+            ],
+            "responses": [
+                "object_detection"
+            ]
+        },
+        {
+            "tags": "scan",
+            "patterns": [
+                "scan the document",
+                "read the document",
+                "read the text",
+                "scan the text"
+            ],
+            "responses": [
+                "text_scanning"
+            ]
+        },
+        {
+            "tags": "thanks",
+            "patterns": [
+                "thanks",
+                "thank you",
+                "that's helpful",
+                "awesome, thanks",
+                "thanks for helping me"
+            ],
+            "responses": [
+                "happy to help!",
+                "any time!",
+                "my pleasure",
+                "you're welcome!"
+            ]
+        },
+        {
+            "tags": "introduce",
+            "patterns": [
+                "introduce your self",
+                "who are you",
+                "what is your name"
+            ],
+            "responses": [
+                "i am Angel",
+                "you can call me Angel",
+                "my name is Angel",
+                "I am a virtual assistant"
+            ]
+        },
+        {
+            "tags": "hobby",
+            "patterns": [
+                "what is your hobby",
+                "what do you often do",
+                "what do you do in your free time"
+            ],
+            "responses": [
+                "I like playing football",
+                "I go to the cinema",
+                "I often play video games",
+                "Fixing bugs"
+            ]
+        },
+        {
+            "tags": "empty",
+            "patterns": [
+            ],
+            "responses": [
+            ]
+        }
+    ]
+}
